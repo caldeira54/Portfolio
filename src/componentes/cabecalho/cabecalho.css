@@ -1,0 +1,12 @@
+.container {
+    background-color: #9e9e9e;
+    width: 100%;
+    height: 2rem;
+}
+
+.nome {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
