@@ -1,15 +1,14 @@
 import './App.css'
-import Cabecalho from './componentes/cabecalho/cabecalho'
+import Cabecalho from './componentes/cabecalho'
 
 function App() {
 
   return (
-    <>
+      <div className='container'>
       <Cabecalho />
 
-      <div className='container'>
         <div className='img'>
-          <img src="./assets/rosto.jpeg" alt="ROSTO" />
+          {/* <img src={img.png} /> */}
         </div>
 
         <div className='nome'>
@@ -21,7 +20,6 @@ function App() {
           <a href="https://github.com/caldeira54?tab=repositories">GitHub</a>
         </div>
       </div>
-    </>
   )
 }
 
