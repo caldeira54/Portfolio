@@ -1,10 +1,11 @@
 .container {
-    background-color: #c74343;
-    width: 100%;
+    background-color: #1B1B1B;
+    width: 98%;
     height: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .nome {
