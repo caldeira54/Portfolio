@@ -1,9 +1,9 @@
 import './estilo.css';
-import Cabecalho from './componentes/cabecalho';
-import Selfie from './assets/img/selfie.jpeg';
-import Linkedin from './assets/img/linkedin.jpg';
-import Github from './assets/img/github.jpg';
-import Instagram from './assets/img/instagram.jpg';
+import Cabecalho from '../../componentes/cabecalho';
+import Selfie from '../../assets/img/selfie.jpeg';
+import Linkedin from '../../assets/img/linkedin.jpg';
+import Github from '../../assets/img/github.jpg';
+import Instagram from '../../assets/img/instagram.jpg';
 
 
 function Principal() {
