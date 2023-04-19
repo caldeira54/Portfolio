@@ -1,8 +1,14 @@
+import Cabecalho from "../../componentes/cabecalho";
+
 function Sobre() {
     return (
-        <div>
+        <>
+            <Cabecalho />
 
-        </div>
+            <div>
+
+            </div>
+        </>
     )
 }
 

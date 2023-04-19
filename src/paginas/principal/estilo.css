@@ -1,0 +1,32 @@
+.app {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.selfie {
+    width: 6rem;
+    border-radius: 100px;
+}
+
+.nome {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.redes-sociais {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icone {
+    width: 1rem;
+}
