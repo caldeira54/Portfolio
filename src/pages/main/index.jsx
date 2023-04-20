@@ -1,4 +1,4 @@
-import './style.css';
+import './main.css';
 import Header from '../../components/header';
 import Selfie from '../../assets/img/selfie.jpeg';
 import Linkedin from '../../assets/img/linkedin.jpg';

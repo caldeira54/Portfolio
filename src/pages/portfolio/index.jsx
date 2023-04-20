@@ -1,4 +1,4 @@
-import './estilo.css';
+import './portfolio.css';
 
 function Principal() {
     return(

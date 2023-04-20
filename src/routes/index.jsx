@@ -4,7 +4,7 @@ import Main from '../pages/main';
 import AboutMe from '../pages/aboutme';
 import Portfolio from '../pages/portfolio';
 
-export default function Routes() {
+export default function AppRoutes() {
     return (
         <Routes>
             <Route path='/' exact element={<Main />} />
