@@ -1,5 +1,5 @@
-import './estilo.css';
-import Cabecalho from '../../componentes/cabecalho';
+import './style.css';
+import Header from '../../components/header';
 import Selfie from '../../assets/img/selfie.jpeg';
 import Linkedin from '../../assets/img/linkedin.jpg';
 import Github from '../../assets/img/github.jpg';
@@ -10,7 +10,7 @@ function Principal() {
 
   return (
     <>
-      <Cabecalho />
+      <Header />
 
       <div className='app'>
         <div>
