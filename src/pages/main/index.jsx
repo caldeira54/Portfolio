@@ -3,7 +3,7 @@ import Header from '../../components/header';
 import Selfie from '../../assets/img/selfie.jpeg';
 import Linkedin from '../../assets/img/linkedin.jpg';
 import Github from '../../assets/img/github.jpg';
-import Instagram from '../../assets/img/instagram.jpg';
+import Instagram from '../../assets/img/instagram.png';
 
 
 function Principal() {
@@ -14,7 +14,7 @@ function Principal() {
 
       <div className='app'>
         <div>
-          <img src={Selfie} className='selfie' />
+          <img src={Selfie} className='selfie'/>
         </div>
 
         <div className='nome'>

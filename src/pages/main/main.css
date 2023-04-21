@@ -9,8 +9,9 @@
 }
 
 .selfie {
-    width: 6rem;
-    border-radius: 100px;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
 }
 
 .nome {
