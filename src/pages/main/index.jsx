@@ -1,8 +1,8 @@
 import './main.css';
 import Header from '../../components/header';
 import Selfie from '../../assets/img/selfie.jpeg';
-import Linkedin from '../../assets/img/linkedin.jpg';
-import Github from '../../assets/img/github.jpg';
+import Linkedin from '../../assets/img/linkedin.png';
+import Github from '../../assets/img/github.png';
 import Instagram from '../../assets/img/instagram.png';
 
 
