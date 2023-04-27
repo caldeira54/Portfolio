@@ -5,12 +5,16 @@ import './header.css';
 export default function Header() {
     const navigate = useNavigate();
 
+    function home() {
+        return navigate('/');
+    }
+
     function aboutMe() {
-        return navigate('../../pages/aboutme');
+        return navigate('aboutme');
     }
 
     function portfolio() {
-        return navigate('../../pages/portfolio');
+        return navigate('portfolio');
     }
 
     return (
@@ -20,6 +24,7 @@ export default function Header() {
             </div>
 
             <div className='menu'>
+                <a onClick={home}>Home</a>
                 <a onClick={aboutMe}>Sobre mim</a>
                 <a onClick={portfolio}>Portfolio</a>
             </div>

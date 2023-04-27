@@ -8,8 +8,8 @@ export default function AppRoutes() {
     return (
         <Routes>
             <Route path='/' exact element={<Main />} />
-            <Route path='/sobre' element={<AboutMe />} />
-            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='aboutme' element={<AboutMe />} />
+            <Route path='portfolio' element={<Portfolio />} />
         </Routes>
     )
 }
