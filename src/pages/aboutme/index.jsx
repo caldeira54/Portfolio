@@ -15,8 +15,8 @@ function AboutMe() {
                     <img src={Photo} />
                 </div>
 
-                <div className='teste'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eum voluptas? Quia, quae vero facilis {"\n"}voluptate similique iste illo ducimus dolor laudantium. Vero esse doloribus praesentium error nulla obcaecati unde.</p>
+                <div className='aboutme'>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eum voluptas? Quia, quae vero facilis voluptate similique iste illo ducimus dolor laudantium. Vero esse doloribus praesentium error nulla obcaecati unde.</p>
                 </div>
             </div>
         </>

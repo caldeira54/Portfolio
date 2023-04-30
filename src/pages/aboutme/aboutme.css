@@ -5,20 +5,30 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 40px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
 }
 
 .photo img{
     width: 50%;
-    padding-top: 3rem;
-    padding-left: 2rem;
 }
 
-p {
-    color: aliceblue;
+.aboutme {
+    color: #080404;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    border-radius: 2rem;
+    margin-right: 1rem;
 }
 
-.teste {
-    background-color: aquamarine;
-    margin-right: 20px;
+.aboutme p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
