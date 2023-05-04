@@ -14,11 +14,10 @@
 }
 
 .projects {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    width: 30%;
     height: 8rem;
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
+    border: 1px solid #fff;
 }
