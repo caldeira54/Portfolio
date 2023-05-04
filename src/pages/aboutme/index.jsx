@@ -20,7 +20,13 @@ function AboutMe() {
                         <h1>SOBRE MIM</h1>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eum voluptas? Quia, quae vero facilis voluptate similique iste illo ducimus dolor laudantium. Vero esse doloribus praesentium error nulla obcaecati unde.</p>
+                    <p>
+                        Olá, me chamo Arthur tenho 21 anos sou natural de Aricanduva. Atualmente estou
+                        no 7º período do curso Sistemas de Informação do Intituto Federal Campus São João
+                        Evangelista. Sou organizado, detalhista, preocupado em produzir trabalhos de qualidade 
+                        e frequentemente não meço esforços para que o resultado seja o melhor possível. Busco
+                        sempre melhorar.
+                    </p>
                 </div>
             </div>
         </>

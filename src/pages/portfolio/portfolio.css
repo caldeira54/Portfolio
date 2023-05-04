@@ -1,5 +1,6 @@
 .container-portfolio {
     background-image: url("../../assets/img/fundo.png");
+    background-color: #080404;
     width: 100%;
     height: auto;
     display: flex;
@@ -15,9 +16,31 @@
 
 .projects {
     width: 30%;
-    height: 8rem;
+    height: 7rem;
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
     border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(112, 112, 112, 0.5);
+}
+
+.title-project {
+    margin-top: 0.5rem; 
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem; 
+}
+
+.data a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.date {
+    font-size: 0.75rem;
 }

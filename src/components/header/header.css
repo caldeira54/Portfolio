@@ -22,7 +22,7 @@
     border-bottom: 1px solid #fff;
 }
 
-a {
+.menu a {
     color: #fff;
     font-size: 1rem;
     text-decoration: none;
@@ -30,6 +30,6 @@ a {
     transition: all 0.2s ease-in-out;
 }
 
-a:hover {
+.menu a:hover {
     font-size: 1.05rem;
 }

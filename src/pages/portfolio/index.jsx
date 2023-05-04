@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
 import Header from '../../components/header';
+import GitHub from '../../assets/img/github.png';
 import './portfolio.css';
 
-function Principal() {
+function Portfolio() {
     const [itemsApi, setItemsApi] = useState([])
 
     useEffect(() => {
@@ -32,24 +33,20 @@ function Principal() {
             <Header />
 
             <div className='container-portfolio'>
-                <h1 className='title'>PROJETOS</h1>
+                <div className='title'>
+                    <h1> PROJETOS </h1>
+                </div>
 
                 {itemsApi.map(item => (
                     <div className="projects" key={item.id}>
-                        <span className="full-name">{item.full_name}</span>
+                        <span className="full-name"> {item.full_name} </span>
 
-                        <h2 className="title-project">{item.name.toUpperCase()}</h2>
+                        <h2 className="title-project"> {item.name.toUpperCase()} </h2>
 
-                        <div className="description-project">
-                            <div className="url">
-                                <span className="language">{item.language}</span>
-                            </div>
+                        <div className="data">
+                                <span> {item.language} </span>
 
-                            <div className="link">
-                                <a href={item.html_url}>
-                                    {/* <img src={iconGh} width="20" />Acessar repositório */}
-                                </a>
-                            </div>
+                                <a href={item.html_url} target='blank'><img src={GitHub} width="18" /> Acessar repositório </a>
                         </div>
 
                         <span className="date"> Data da criação: {Intl.DateTimeFormat('pt-BR')
@@ -62,4 +59,4 @@ function Principal() {
     )
 }
 
-export default Principal;
+export default Portfolio;
