@@ -1,6 +1,5 @@
 .app {
     background-image: url("../../assets/img/fundo.png");
-    background-color: #080404;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -28,6 +27,14 @@
     width: 10%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.redes-sociais a {
+    transition: all 0.2s ease-in-out;
+}
+
+.redes-sociais a:hover {
+    transform: scale(1.1);
 }
 
 .icone {

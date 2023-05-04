@@ -25,7 +25,8 @@ function AboutMe() {
                         no 7º período do curso Sistemas de Informação do Intituto Federal Campus São João
                         Evangelista. Sou organizado, detalhista, preocupado em produzir trabalhos de qualidade 
                         e frequentemente não meço esforços para que o resultado seja o melhor possível. Busco
-                        sempre melhorar.
+                        sempre melhorar. Além de estudar estou fazendo parte da empresa júnior OneBit aqui do 
+                        IGMG-SJE.
                     </p>
                 </div>
             </div>

@@ -31,5 +31,5 @@
 }
 
 .menu a:hover {
-    font-size: 1.05rem;
+    transform: scale(1.1);
 }

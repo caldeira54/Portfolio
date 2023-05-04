@@ -37,23 +37,26 @@ function Portfolio() {
                     <h1> PROJETOS </h1>
                 </div>
 
-                {itemsApi.map(item => (
-                    <div className="projects" key={item.id}>
-                        <span className="full-name"> {item.full_name} </span>
+                <div className='body'>
+                    {itemsApi.map(item => (
+                        <div className="projects" key={item.id}>
+                            <span className="full-name"> {item.full_name} </span>
 
-                        <h2 className="title-project"> {item.name.toUpperCase()} </h2>
+                            <h2 className="title-project"> {item.name.toUpperCase()} </h2>
 
-                        <div className="data">
+                            <div className="data">
                                 <span> {item.language} </span>
 
                                 <a href={item.html_url} target='blank'><img src={GitHub} width="18" /> Acessar repositório </a>
-                        </div>
+                            </div>
 
-                        <span className="date"> Data da criação: {Intl.DateTimeFormat('pt-BR')
-                            .format(new Date(item.created_at))}
-                        </span>
-                    </div>
-                ))}
+                            <span className="date"> Data da criação: {Intl.DateTimeFormat('pt-BR')
+                                .format(new Date(item.created_at))}
+                            </span>
+                        </div>
+                    ))}
+                </div>
+
             </div>
         </>
     )
