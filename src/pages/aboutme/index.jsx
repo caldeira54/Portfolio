@@ -16,6 +16,10 @@ function AboutMe() {
                 </div>
 
                 <div className='aboutme'>
+                    <div className='title'>
+                        <h1>SOBRE MIM</h1>
+                    </div>
+
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eum voluptas? Quia, quae vero facilis voluptate similique iste illo ducimus dolor laudantium. Vero esse doloribus praesentium error nulla obcaecati unde.</p>
                 </div>
             </div>
