@@ -4,7 +4,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .photo {
@@ -18,17 +18,26 @@
 }
 
 .aboutme {
+    width: 100%;
     color: #080404;
     background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%;
     border-radius: 2rem;
     margin-right: 1rem;
     flex-direction: column;
+    padding-bottom: 0.5rem;
 }
 
-.title {
+.title-aboutme {
     margin-bottom: 1.5rem;
+}
+
+.icons {
+    padding-top: 1.5rem;
+}
+
+.icons img {
+    width: 3rem;
 }
