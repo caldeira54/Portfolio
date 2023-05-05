@@ -10,11 +10,11 @@ export default function Header() {
     }
 
     function aboutMe() {
-        return navigate('aboutme');
+        return navigate('/aboutme');
     }
 
     function portfolio() {
-        return navigate('portfolio');
+        return navigate('/portfolio');
     }
 
     return (

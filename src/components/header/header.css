@@ -5,7 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: fixed; */
 }
 
 .name {
@@ -16,7 +15,6 @@
 
 .menu {
     width: 15%;
-    font-size: 1rem;
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #fff;
@@ -33,3 +31,24 @@
 .menu a:hover {
     transform: scale(1.1);
 }
+
+@media(min-width: 460px) {
+    .menu {
+        width: 50%;
+        font-size: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu {
+      width: 30%;
+      max-width: 25%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .menu {
+      width: 20%;
+      max-width: 20%;
+    }
+  }
