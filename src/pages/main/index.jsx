@@ -1,5 +1,8 @@
+import React from 'react';
+
 import './main.css';
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 import Selfie from '../../assets/img/selfie.jpeg';
 import Linkedin from '../../assets/img/linkedin.png';
 import Github from '../../assets/img/github.png';
@@ -28,6 +31,8 @@ function Principal() {
           <a href="https://www.instagram.com/arthur_alves_caldeira/"><img src={Instagram} className='icone' /></a>
         </div>
       </div>
+
+      <Footer />
     </>
   )
 }

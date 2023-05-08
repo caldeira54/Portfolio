@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../../components/header';
 import './aboutme.css';
 
-import Photo from '../../assets/img/selfie.jpeg';
+import Photo from '../../assets/img/photo.jpg';
 import Php from '../../assets/img/php.png';
 import Java from '../../assets/img/java.png';
 import JavaScript from '../../assets/img/javascript.png';

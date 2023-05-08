@@ -5,7 +5,7 @@ import GitHub from '../../assets/img/github.png';
 import './portfolio.css';
 
 function Portfolio() {
-    const [itemsApi, setItemsApi] = useState([])
+    const [itemsApi, setItemsApi] = useState([]);
 
     useEffect(() => {
         let abortController = new AbortController();
