@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 import './footer.css';
 
@@ -7,9 +8,34 @@ function Footer() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
+    function sendEmail(e) {
+        e.preventDefault();
+
+        if(name === '' || email === '' || message === '') {
+            alert('Preencha todos os campos!');
+            return;
+        }
+
+        const templatePrams = {
+            from_name: name,
+            message: message,
+            email: email
+        }
+
+        emailjs.send('service_wz5j96i', 'template_ckpe08i', templatePrams, 'iJpUMajC_j117gvW8')
+        .then((response) => {
+            console.log('Email enviado', response.status, response.text);
+            setName('');
+            setEmail('');
+            setMessage('');
+        }, (err) => {
+            console.log('Erro: ', err);
+        });
+    }
+
     return (
         <div className='container-footer'>
-            <div className='form'>
+            <form className='form' onSubmit={sendEmail}>
                 <h1 className='title'>Contato</h1>
 
                 <div className='field'>
@@ -47,7 +73,7 @@ function Footer() {
                 </div>
 
                 <input type='submit' className='button' value='Enviar' />
-            </div>
+            </form>
         </div>
     )
 }
