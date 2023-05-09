@@ -3,6 +3,13 @@ import emailjs from '@emailjs/browser';
 
 import './footer.css';
 
+import Php from '../../assets/img/php.png';
+import Java from '../../assets/img/java.png';
+import JavaScript from '../../assets/img/javascript.png';
+import Html from '../../assets/img/html.png';
+import Css from '../../assets/img/css.png';
+import C from '../../assets/img/c.png';
+
 function Footer() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -11,7 +18,7 @@ function Footer() {
     function sendEmail(e) {
         e.preventDefault();
 
-        if(name === '' || email === '' || message === '') {
+        if (name === '' || email === '' || message === '') {
             alert('Preencha todos os campos!');
             return;
         }
@@ -23,14 +30,14 @@ function Footer() {
         }
 
         emailjs.send('service_wz5j96i', 'template_ckpe08i', templatePrams, 'iJpUMajC_j117gvW8')
-        .then((response) => {
-            console.log('Email enviado', response.status, response.text);
-            setName('');
-            setEmail('');
-            setMessage('');
-        }, (err) => {
-            console.log('Erro: ', err);
-        });
+            .then((response) => {
+                console.log('Email enviado', response.status, response.text);
+                setName('');
+                setEmail('');
+                setMessage('');
+            }, (err) => {
+                console.log('Erro: ', err);
+            });
     }
 
     return (
@@ -74,6 +81,19 @@ function Footer() {
 
                 <input type='submit' className='button' value='Enviar' />
             </form>
+
+            <div className='form'>
+                <h1 className='title'>Habilidades</h1>
+
+                <div className='icons'>
+                    <img src={Php} />
+                    <img src={Java} />
+                    <img src={JavaScript} />
+                    <img src={C} />
+                    <img src={Css} />
+                    <img src={Html} />
+                </div>
+            </div>
         </div>
     )
 }

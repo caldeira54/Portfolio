@@ -38,7 +38,7 @@ function AboutMe() {
                         entre alguns IFMGs, na ocasião pude me sagrar campeão, ficando em primeiro lugar.
                     </p>
 
-                    <h1>Skils</h1>
+                    {/* <h1>Skils</h1>
 
                     <div className='icons'>
                         <img src={Php} />
@@ -47,7 +47,7 @@ function AboutMe() {
                         <img src={C} />
                         <img src={Css} />
                         <img src={Html} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

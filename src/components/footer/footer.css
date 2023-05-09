@@ -3,14 +3,15 @@
     /* background-image: url('../../assets/img/fundo.jpg'); */
     width: 100%;
     height: auto;
+    display: flex;
 }
 
 .form {
     padding: 0.8rem 2.4rem;
     width: 50%;
     max-width: 50%;
-    border-radius: 0.3125rem;
     height: 80%;
+    /* border: 1px solid #fff; */
 }
 
 .title {
@@ -34,7 +35,7 @@
     width: 95%;
     margin-top: 0.8rem 0;
     border: 1px solid #DDD;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     font-size: 1rem;
     padding-left: 0.25rem;
 }
@@ -53,4 +54,15 @@
 
 .button:hover {
     transform: scale(1.01);
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 10rem;
+}
+
+.icons img {
+    width: 3rem;
+    text-align: center;
 }
