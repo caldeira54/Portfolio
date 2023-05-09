@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 import './aboutme.css';
 
 import Photo from '../../assets/img/photo.jpg';
@@ -49,6 +50,8 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

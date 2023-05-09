@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
 import Header from '../../components/header';
-import GitHub from '../../assets/img/github.png';
+import Footer from '../../components/footer';
 import './portfolio.css';
+
+import GitHub from '../../assets/img/github.png'
 
 function Portfolio() {
     const [itemsApi, setItemsApi] = useState([]);
@@ -56,8 +58,9 @@ function Portfolio() {
                         </div>
                     ))}
                 </div>
-
             </div>
+
+            <Footer />
         </>
     )
 }
