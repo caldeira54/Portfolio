@@ -58,32 +58,14 @@
     font-size: 0.75rem;
 }
 
-@media(max-width: 460px) {
-    .projects {
-        width: 50%;
-        height: 3.5rem;
-        margin: 0.25rem;
-        padding: 0.5rem;
-        margin-left: 0.5rem;
-    }
+@media only screen and (max-width: 768px) {
+    /* CSS rules for screens smaller than 768px */
 }
 
-@media (max-width: 768px) {
-    .projects {
-        width: 30%;
-        height: 2.1rem;
-        margin: 0.15rem;
-        padding: 0.33rem;
-        margin-left: 0.33rem;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS rules for screens between 768px and 1024px */
 }
 
-@media (max-width: 1024px) {
-    .projects {
-        width: 20%;
-        height: 1.4rem;
-        margin: 0.1rem;
-        padding: 0.2rem;
-        margin-left: 0.2rem;
-    }
+@media only screen and (min-width: 1024px) {
+    /* CSS rules for screens larger than 1024px */
 }
