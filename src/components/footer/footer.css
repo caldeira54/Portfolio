@@ -71,7 +71,7 @@
 
 } */
 
-@media(min-width: 480px) {
+@media(max-width: 480px) {
     .field {
        margin-bottom: 0.15rem; 
     }
