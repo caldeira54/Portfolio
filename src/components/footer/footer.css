@@ -22,7 +22,7 @@
 .field {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .field span {
@@ -65,4 +65,39 @@
     width: 3rem;
     text-align: center;
     justify-self: center;
+}
+
+/* @media (max-width: 480px) {
+
+} */
+
+@media(min-width: 480px) {
+    .field {
+       margin-bottom: 0.15rem; 
+    }
+
+    .field span {
+        font-size: 0.1rem;
+    }
+
+    .input {
+        margin-top: 0.05rem 0;
+        font-size: 0.1rem;
+        /* padding-left: 0.25rem; */
+    }
+
+    .button {
+        height: 0.15rem;
+        /* padding: 0.125rem;
+        border: 0; */
+        font-size: 0.1rem;
+    }
+
+    .icons {
+        grid-auto-rows: 1rem;
+    }
+    
+    .icons img {
+        width: 0.5rem;
+    }
 }
