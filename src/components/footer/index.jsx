@@ -10,6 +10,7 @@ import Html from '../../assets/img/html.png';
 import Css from '../../assets/img/css.png';
 import C from '../../assets/img/c.png';
 import iconReact from '../../assets/img/react.png';
+import mysql from '../../assets/img/mysql.png';
 
 function Footer() {
     const [name, setName] = useState('');
@@ -54,6 +55,7 @@ function Footer() {
                     <img src={Css} />
                     <img src={Html} />
                     <img src={iconReact} />
+                    <img src={mysql} />
                 </div>
             </div>
 

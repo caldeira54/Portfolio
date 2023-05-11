@@ -80,7 +80,7 @@
     }
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
     .form {
         width: 30%;
     }
