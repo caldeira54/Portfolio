@@ -100,5 +100,22 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    /* CSS rules for screens larger than 1024px */
+    .body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        justify-items: center;
+    }
+
+    .date {
+        font-size: 0.7rem;
+    }
+
+    .projects {
+        width: 80%;
+        height: auto;
+        margin: 0;
+        padding: 0.5rem;
+        margin-left: 0;
+    }
 }

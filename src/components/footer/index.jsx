@@ -9,6 +9,7 @@ import JavaScript from '../../assets/img/javascript.png';
 import Html from '../../assets/img/html.png';
 import Css from '../../assets/img/css.png';
 import C from '../../assets/img/c.png';
+import iconReact from '../../assets/img/react.png';
 
 function Footer() {
     const [name, setName] = useState('');
@@ -42,6 +43,20 @@ function Footer() {
 
     return (
         <div className='container-footer'>
+            <div className='form'>
+                <h1 className='title'>Habilidades</h1>
+
+                <div className='icons'>
+                    <img src={Php} />
+                    <img src={Java} />
+                    <img src={JavaScript} />
+                    <img src={C} />
+                    <img src={Css} />
+                    <img src={Html} />
+                    <img src={iconReact} />
+                </div>
+            </div>
+
             <form className='form' onSubmit={sendEmail}>
                 <h1 className='title'>Contato</h1>
 
@@ -81,19 +96,6 @@ function Footer() {
 
                 <input type='submit' className='button' value='Enviar' />
             </form>
-
-            <div className='form'>
-                <h1 className='title'>Habilidades</h1>
-
-                <div className='icons'>
-                    <img src={Php} />
-                    <img src={Java} />
-                    <img src={JavaScript} />
-                    <img src={C} />
-                    <img src={Css} />
-                    <img src={Html} />
-                </div>
-            </div>
         </div>
     )
 }

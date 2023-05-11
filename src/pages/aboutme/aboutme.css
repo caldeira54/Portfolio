@@ -38,10 +38,30 @@
     margin-bottom: 1.5rem;
 }
 
-.icons {
-    padding-top: 1.5rem;
+@media (max-width: 480px) {
+    .container-aboutme {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aboutme {
+        margin-top: 3rem;
+        padding: 1rem;
+    }
 }
 
-.icons img {
-    width: 3rem;
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    /* .container-aboutme {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aboutme {
+        margin-top: 3rem;
+        padding: 1rem;
+    } */
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    
 }
