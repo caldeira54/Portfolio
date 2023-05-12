@@ -37,6 +37,7 @@ function Footer() {
                 setName('');
                 setEmail('');
                 setMessage('');
+                alert('Email enviado!');
             }, (err) => {
                 console.log('Erro: ', err);
             });
