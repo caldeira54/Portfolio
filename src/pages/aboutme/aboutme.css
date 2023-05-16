@@ -10,7 +10,7 @@
 .photo {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     margin-right: 1rem;
     margin-left: 1rem;
 }
@@ -45,23 +45,49 @@
     }
 
     .aboutme {
+        width: 85%;
         margin-top: 3rem;
         padding: 1rem;
+    }
+
+    .photo {
+        width: 85%;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-    /* .container-aboutme {
+    .container-aboutme {
         flex-direction: column;
         justify-content: center;
     }
 
     .aboutme {
+        width: 85%;
         margin-top: 3rem;
         padding: 1rem;
-    } */
+    }
+
+    .photo {
+        width: 85%;
+    }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1600px) {
-    
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+    .aboutme {
+        width: 50%;
+    }
+
+    .photo {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2150px) {
+    .aboutme {
+        width: 50%;
+    }
+
+    .photo {
+        width: 30%;
+    }
 }

@@ -34,7 +34,7 @@ function AboutMe() {
                         Evangelista. Sou organizado, detalhista, preocupado em produzir trabalhos de qualidade 
                         e frequentemente não meço esforços para que o resultado seja o melhor possível. Busco
                         sempre melhorar. Além de estudar estou fazendo parte da empresa júnior OneBit aqui do 
-                        IGMG-SJE. Já participei da II Maratona de Programação Intercampi que aconteceu em 2020
+                        IFMG-SJE. Já participei da II Maratona de Programação Intercampi que aconteceu em 2020
                         entre alguns IFMGs, na ocasião pude me sagrar campeão, ficando em primeiro lugar.
                     </p>
                 </div>
