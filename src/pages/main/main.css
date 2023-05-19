@@ -40,3 +40,21 @@
 .icone {
     width: 1.2rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .redes-sociais {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .redes-sociais {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .redes-sociais {
+        width: 20%;
+    }
+}
